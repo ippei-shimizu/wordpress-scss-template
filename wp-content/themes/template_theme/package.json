@@ -1,0 +1,22 @@
+{
+  "name": "template_theme",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "scss": "sass --watch scss:css --style=compressed",
+    "bs": "browser-sync start --proxy 'localhost:8000' --files 'css/**/*.css, **/*.php, js/**/*.js'",
+    "dev": "concurrently \"npm run scss\" \"npm run bs\""
+  },
+  "engines": {
+    "node": "22.14.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "browser-sync": "^3.0.3",
+    "concurrently": "^9.1.2",
+    "sass": "^1.85.0"
+  }
+}

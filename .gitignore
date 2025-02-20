@@ -1,0 +1,10 @@
+tmp
+backups
+
+/wp-content/languages
+/wp-content/plugins
+
+/wp-content/plugins/*
+/wp-content/plugins/.gitkeep
+
+/wp-content/themes/*/node_modules
